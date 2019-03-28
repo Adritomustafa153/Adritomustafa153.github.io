@@ -3,25 +3,25 @@ body{
 	padding:0;
 }
 .slider{
-	width: 1200px;
+	width: 1335px;
 	height: 379px;
 	background: url(s1.jpg);
-	margin: 0 auto;
+	margin: 0px auto;
 	overflow: hidden;
 	animation: slide 20s infinite;
 }
 @keyframes slide{
 	25%{
-		background: url(s2.jpg);
+		background: url(s2.JPG);
 	}
 	50%{
-		background: url(s3.jpg);
+		background: url(s3.JPG);
 	}
 	75%{
 		background: url(s4.jpg);
 	}
 	100%{
-		background: url(s1.jpg);
+		background: url(s1.JPG);
 	}
 }
 	
